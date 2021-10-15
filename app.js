@@ -4,6 +4,8 @@
 // TODO: Make nicer frontend
 // TODO: Alert() when #DIV/0
 // TODO: Add GitHub page
+// TODO: Add keyboard support
+// TODO: Review decimal logic
 
 
 const nbrElements = document.querySelectorAll('.nbr');
