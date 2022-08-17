@@ -29,7 +29,7 @@ body {
     border: 1px solid black;
     padding: 15px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: gray;
 }
 
 #display {
@@ -56,14 +56,13 @@ body {
 button {
     padding: 10px 5px;
     text-transform: uppercase;
-    /*background-color: var(--clr-btn-primary);*/
     border: 1px solid black;
     border-radius: 4px;
+    background-color: var(--clr-btn-primary);
 }
 
 button:active {
-    background-color: #3e8e41;
-    transform: translateY(4px);
+    transform: scale(1.1);
 }
 
 
