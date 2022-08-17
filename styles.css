@@ -1,5 +1,6 @@
 :root {
-    --clr-btn-primary: lightgrey;
+    --clr-btn-primary: #888;
+    --clr-btn-secondary: #DDD;
 }
 
 html {
@@ -29,7 +30,7 @@ body {
     border: 1px solid black;
     padding: 15px;
     border-radius: 10px;
-    background-color: gray;
+    background-color: var(--clr-btn-primary);
 }
 
 #display {
@@ -38,7 +39,7 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px 5px 10px 5px;
-    background-color: var(--clr-btn-primary);
+    background-color: var(--clr-btn-secondary);
 }
 
 #clear, #delete {
@@ -58,7 +59,7 @@ button {
     text-transform: uppercase;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: var(--clr-btn-primary);
+    background-color: var(--clr-btn-secondary);
 }
 
 button:active {

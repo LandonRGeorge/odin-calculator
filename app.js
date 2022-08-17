@@ -1,7 +1,6 @@
 "use strict";
 
 // TODO: Round decimals to nearest hundreds place
-// TODO: Make nicer frontend
 // TODO: Add keyboard support
 // TODO: Review decimal logic
 
